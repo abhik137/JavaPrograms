@@ -9,6 +9,18 @@ package com.javaprog.standalone;
 
 class JavaPassByValueAndObjectReferences
 {
+    /**
+     * Java works exactly like C. You can assign a pointer, 
+     * pass the pointer to a method, follow the pointer in the method 
+     * and change the data that was pointed to. However, you cannot change 
+     * where that pointer points.
+     */
+    /*
+     * TODO: Make this example more intuitive. It's kind of vague right now
+     * Show how it's done by passing an object to a method and changing the object
+     * So, while the value of the variable referencing the object remains same
+     * in the caller, the object itself will be changed by the called method
+     */
     public static void main(String[] args)
     {
         Dog aDog = new Dog("Max");
