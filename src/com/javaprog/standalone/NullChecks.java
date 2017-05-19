@@ -19,9 +19,18 @@ public class NullChecks
         }
     }
     
+    public void nullKaToString()
+    {
+        Object a = "abc";
+        Object b = null;
+        System.out.println(a);
+        System.out.println(b);
+    }
+    
     public static void main(String[] args)
     {
         NullChecks object = new NullChecks();
         object.mapNullCheck();
+        object.nullKaToString();
     }
 }
