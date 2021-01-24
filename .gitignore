@@ -1,4 +1,9 @@
 *.out
+
+# Excluded local directories
+edu/
+classes/
+
 #################
 ## Eclipse
 #################
