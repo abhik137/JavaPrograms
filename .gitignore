@@ -4,6 +4,9 @@
 edu/
 classes/
 
+# maven
+target/
+
 #################
 ## Eclipse
 #################
